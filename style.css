@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background: rgb(179, 0, 0) ;
+    color: #fff;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4rem;
+    align-items: center;
+}
+
+ul.menu {
+    display: flex;
+    list-style: none;
+}
+ul.menu li {
+    margin-left: 1rem;
+}
+ul.menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header {
+    height: 400px;
+    overflow: hidden;
+    /* border: 1px solid red; */
+    background: url('https://cdn.discordapp.com/attachments/779926397308239912/910363712400015400/Picture2.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-info {
+    /* border: 1px solid red; */
+    width: 500px;
+    margin-top: 4rem;
+    margin-left: 4rem;
+    color: rgb(255, 255, 255);
+}
+.header-info h1 {
+    font-size: 3rem;
+}
+.header-info p {
+    margin: 1rem 0;
+    line-height: 1.5;
+}
+.header-info a {
+    color: #fff;
+    border: 1px solid rgb(255, 62, 62);
+    padding: .5rem 1rem;
+    display: inline-block;
+    text-decoration: none;
+}
+
+main {
+    padding: 3rem 0;
+}
+
+main > h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
